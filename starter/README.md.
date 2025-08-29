@@ -1,0 +1,8 @@
+# Vibe Coding — AI Dream-to-App Generator
+
+This repo contains the landing page, starter backend, and organizer resources for the Vibe Coding hackathon.
+
+## Quick start (local)
+1. Clone repo
+2. Create and activate a Python venv
+3. Install dependencies:
