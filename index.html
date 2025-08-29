@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Vibe Coding — AI Dream-to-App Generator</title>
+  <style>
+    :root{--accent:#0b8043;--muted:#666;--bg:#fafafa}
+    body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:#222}
+    header{background:linear-gradient(90deg,#083b2f,#0b8043);color:#fff;padding:48px 24px;text-align:center}
+    header h1{margin:0;font-size:clamp(1.6rem,3vw,2.4rem)}
+    .container{max-width:980px;margin:28px auto;padding:0 18px}
+    section{background:#fff;padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(8,33,22,0.06);margin-bottom:18px}
+    h2{color:var(--accent);margin-top:0}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:10px;border:1px solid #eee;text-align:left}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none}
+    footer{text-align:center;padding:18px;color:#fff;background:#082b20;border-radius:0 0 12px 12px}
+    @media(min-width:800px){.grid{grid-template-columns:1fr 1fr}}
+    .pill{display:inline-block;padding:6px 10px;background:#eef7f1;border-radius:999px;color:var(--accent);font-weight:600;margin-right:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vibe Coding — AI Dream-to-App Generator</h1>
+    <p>Run your hackathon. Attract great teams. Judge fairly. Help winners build real impact.</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About the Hackathon</h2>
+      <p>Organiser: <strong>Happy Igho Umukoro</strong> — Theme: <strong>AI Dream-to-App (Text → Working App)</strong>.</p>
+      <p>Goal: Empower beginners to build low-code AI apps that solve real student and everyday problems.</p>
+    </section>
+
+    <section>
+      <h2>Tracks & Challenge Statements</h2>
+      <div class="grid">
+        <div>
+          <h3>AI Study Buddy (Flashcard Generator)</h3>
+          <p><span class="pill">Frontend</span>HTML/CSS/JS — <span class="pill">Backend</span>Flask + MySQL — <span class="pill">AI</span>Hugging Face QA</p>
+          <p>Input study notes; output 3–7 flashcards; save for reuse.</p>
+        </div>
+        <div>
+          <h3>Mood Journal (Emotion Tracker)</h3>
+          <p><span class="pill">Frontend</span>HTML/CSS/JS + Chart.js — <span class="pill">Backend</span>Flask + MySQL — <span class="pill">AI</span>Hugging Face Sentiment</p>
+          <p>Capture daily entries, visualize mood trends over time.</p>
+        </div>
+        <div>
+          <h3>Recipe Recommender (Food Matcher)</h3>
+          <p><span class="pill">Frontend</span>HTML/CSS/JS — <span class="pill">Backend</span>Flask + MySQL — <span class="pill">AI</span>OpenAI</p>
+          <p>Enter ingredients; receive 3 simple recipes with steps and estimated time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Submission Essentials</h2>
+      <ul>
+        <li>GitHub Repository (public)</li>
+        <li>Live demo link (GitHub Pages / Netlify / Render)</li>
+        <li>Pitch deck PDF (`deck.pdf`)</li>
+        <li>Optional: ≤2min demo video</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Judging & Prizes</h2>
+      <p><strong>Top prizes:</strong> 1st — ₦250,000 + mentorship; 2nd — ₦100,000; 3rd — ₦50,000 (adjust as needed).</p>
+      <p>Judging metrics (weighted): Technical Implementation 30% • Impact 25% • UX/Design 20% • Creativity 15% • Presentation 10%.</p>
+    </section>
+
+    <section>
+      <h2>Resources for Teams</h2>
+      <ul>
+        <li>Starter repo (Flask + example endpoints)</li>
+        <li>API keys guide (Hugging Face / OpenAI)</li>
+        <li>How to deploy: GitHub Pages + Render sample</li>
+      </ul>
+      <a class="cta" href="#starter">Download starter repo</a>
+    </section>
+
+    <section id="contact">
+      <h2>Organizer & Contact</h2>
+      <p>Happy Igho Umukoro — Email: <strong>princeigho74@gmail.com</strong> — WhatsApp: +2348065202102</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Vibe Coding — AI Dream-to-App Generator
+  </footer>
+</body>
+</html>
