@@ -1,0 +1,11 @@
+# Judging Rubric — Vibe Coding: AI Dream-to-App
+
+Each judge rates 0–10 in each category. Weights convert to final score (out of 100).
+
+1. Technical Implementation (30%) — correctness, stability, API use, DB usage.
+2. Impact & Usefulness (25%) — real user value.
+3. UX / Design (20%) — usability and polish.
+4. Creativity & Innovation (15%) — unique use of AI.
+5. Presentation & Demo (10%) — clarity and demo completeness.
+
+Total = (Tech*0.30 + Impact*0.25 + UX*0.20 + Creativity*0.15 + Presentation*0.10) * 10
